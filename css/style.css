@@ -1,0 +1,152 @@
+h1, h2, h3, p, span, button {
+    font-family: 'IBM Plex Sans';
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 648px;
+    background: #EEEEF2;
+}
+
+
+.new-custumer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:387px;
+    height:444px;
+    background: #FFFFFF;
+    margin: 16px;
+}
+
+.new-custumer .wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px 30px;
+}
+
+.new-custumer .wrapper h2 {
+    font-size: 26px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.new-custumer .wrapper p{
+    line-height: 26px;
+    font-weight: 400;
+    margin-top: 18px;
+}
+
+.wrapper a{
+    text-decoration: none;
+    color: #0084D1;
+}
+
+.bluebox {
+    width: 12px;
+    height: 12px;
+    background-color: #0084D1;
+    margin-bottom: 24px;
+}
+
+.btn {
+    background: #0084D1;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 25px;
+}
+
+.btn-newcustumer {
+    width: 314px;
+    height: 48px;
+    margin-top: 14px;
+    font-size: 16px;
+}
+
+.alredy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:387px;
+    height:444px;
+    background: #FFFFFF;
+    margin: 16px;
+}
+
+.alredy .wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px 30px;
+}
+
+.alredy .wrapper h2 {
+    font-size: 26px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.alredy .wrapper p{
+    line-height: 26px;
+    font-weight: 400;
+    margin-top: 18px;
+}
+
+.btn-permit {
+    width: 255px;
+    height: 48px;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+
+@media (max-width: 1024px) { 
+    .section-2 {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .new-custumer {
+        width:325px;
+        height: 454px;
+        margin: 25px;
+    }
+
+    .alredy {
+        width:325px;
+        height: 428px;
+        margin: 25px;
+    }
+
+    .new-custumer .wrapper {
+        margin: 20px;
+    }
+
+    .alredy .wrapper {
+        margin: 20px;
+    }
+
+    .btn-newcustumer {
+        width: 280px;
+        margin: 0;
+        font-size: 14px;
+    }
+
+    
+    .btn-permit {
+        width: 228px;
+        margin: 0;
+        font-size: 14px;
+    }
+
+    
+ }
